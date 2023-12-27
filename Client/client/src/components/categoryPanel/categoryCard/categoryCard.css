@@ -1,0 +1,20 @@
+.category-cards {
+  width:300px;
+  height: 200px;
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease; /* Add the transition property */
+  }
+  
+  .category-card {
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .category-card img {
+    max-width: 100%;
+    height: 100px;
+    
+  }

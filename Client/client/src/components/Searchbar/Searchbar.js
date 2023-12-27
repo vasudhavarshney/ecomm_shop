@@ -17,14 +17,14 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div>
+    <div className='flex_container'>
       <input
         type="text"
         placeholder="Search..."
         value={query}
         onChange={handleInputChange}
       />
-      <button onClick={handleSearch}></button>
+      <button  className="searchbuttom" onClick={handleSearch}></button>
     </div>
   );
 };
