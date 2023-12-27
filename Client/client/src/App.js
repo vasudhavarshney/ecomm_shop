@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from './containers/layout/layout.js'
+import './App.css'
 
 function App() {
   return (
-    <div >
+    <div className='app'>
+      <Layout/>
     </div>
   );
 }

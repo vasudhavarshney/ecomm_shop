@@ -1,0 +1,46 @@
+/* ShoppingCart.css */
+
+.shopping-cart-container {
+ padding: 5px;
+}
+.iconContainer{
+
+}
+.shopping-cart-container .iconContainer img{
+  width: 32px;
+  height: 32px;
+}
+.shopping-cart-container .iconContainer p{
+  position: static;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+  .item-count {
+    display: none; /* Initially hide the item count */
+  
+    /* Add styles for the item count circle */
+    width: 15px;
+    height: 15px;
+    background-color: #007bff; /* Circle background color */
+    color: #fff; /* Text color */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+  
+    /* Add transition for smooth show/hide effect */
+    transition: display 0.3s ease;
+  }
+  
+  /* Show the item count circle when item count is greater than 0 */
+  .item-count.show {
+    display: block;
+  }
+  
+  /* Hide the item count circle when item count is 0 */
+  .item-count.hide {
+    display: none;
+  }
+  
