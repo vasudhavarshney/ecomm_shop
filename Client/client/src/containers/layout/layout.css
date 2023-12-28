@@ -7,9 +7,9 @@
  padding-left: 20px;
  width: 98.5vw;
  /* background-color: rgb(241, 229, 229); */
- display: grid;
- grid-template-columns: minmax(300px, 200px) minmax(300px, 200px);
- gap:100px;
+ display: flex;
+ /* grid-template-columns: minmax(300px, 200px) minmax(300px, 200px); */
+ gap:10px;
  background-color: rgb(241, 229, 229);
  transition: background-color 10s;
  justify-content: right;

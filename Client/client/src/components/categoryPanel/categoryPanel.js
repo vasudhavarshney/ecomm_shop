@@ -1,5 +1,5 @@
 // CategoryPanel.js
-import React, { useState } from 'react';
+import React  from 'react';
 import Carousel from 'react-elastic-carousel';
 import CategoryCard from './categoryCard/categoryCard';
 import './categoryPanel.css'; // Import the CSS file
@@ -22,6 +22,7 @@ const CategoryPanel = ({ categories }) => {
         {categories.map((category, index) => { return(
           <div >
             <CategoryCard
+            key={index}
             title={category.title}
             imageUrl={category.imageUrl}
           />
