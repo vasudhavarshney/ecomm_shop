@@ -1,7 +1,15 @@
 const express =require('express');
+const connectDB = require('./config/database');
+const PORT = process.env.PORT || 5000;
+const userRoutes = require('./routes/UserRoutes')
 
-app=express();      
+const app = express();
+connectDB();
 
-console.log("hello")
+app.use(express.json());
+app.use("/user",userRoutes);
 
-app.listen(5000)   
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});

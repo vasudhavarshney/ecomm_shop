@@ -4,8 +4,8 @@ import './categoryCard.css';
 
 const CategoryCard = ({ title, imageUrl }) => {
   return (
-    <div className="category-card">
-      <img src={imageUrl} alt={title} />
+    <div className="category-card" >
+      <img src={imageUrl} alt={title} title={title}/>
       {/* <h3>{title}</h3> */}
     </div>
   );

@@ -1,11 +1,14 @@
 import React from 'react'
-import Layout from './containers/layout/layout.js'
+import { BrowserRouter as Router } from 'react-router-dom';
+import MainLayout from './MainLayout.js';
 import './App.css'
 
 function App() {
   return (
     <div className='app'>
-      <Layout/>
+      <Router>
+        <MainLayout/>
+      </Router>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import IconCart from './shopping-cart-icon-29083.png'
 
 const Cart = () => {
   // const [cartItems, setCartItems] = useState([]);
-  const [itemCount, setItemCount] = useState(1);
+  const [itemCount, setItemCount] = useState(0);
 
   // const addItemToCart = (item) => {
   //   const updatedCart = [...cartItems, item];

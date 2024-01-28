@@ -1,0 +1,33 @@
+/* styles.css */
+/* styles.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 1.5vh; /* Increase padding for better spacing */
+    background-color: #175899; /* Dark blue background color */
+    color: #ecf0f1; /* Light text color */
+  }
+  
+  .left-items, .right-items {
+    display: flex;
+    gap: 20px; /* Increase gap between items */
+  }
+  
+  .header-item {
+    cursor: pointer;
+    padding: 6px 10px; /* Add padding to each item */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  
+    /* Additional styling for better visual appeal */
+    &:hover {
+      background-color: #5b5b74; /* Darker blue on hover */
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit; /* Inherit text color from the parent */
+    }
+  }
+  

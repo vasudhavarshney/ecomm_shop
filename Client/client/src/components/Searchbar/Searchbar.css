@@ -8,8 +8,8 @@
   }
   
   /* Search input */
-  input {
-    width:30em;
+  .Search_input {
+    width:45vw;
     padding: 8px;
     font-size: 12px;
     border: 1px solid #ccc;

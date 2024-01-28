@@ -6,10 +6,12 @@ import './categoryPanel.css'; // Import the CSS file
 
 const CategoryPanel = ({ categories }) => {
   const breakPoints = [
-    { width: 1, itemsToShow: 3 },
-    { width: 550, itemsToShow: 6 },
-    { width: 768, itemsToShow: 9 },
-    { width: 1200, itemsToShow: 12 },
+    { width: 150, itemsToShow: 1 },
+    { width: 250, itemsToShow: 2 },
+    { width: 350, itemsToShow: 3 },
+    { width: 550, itemsToShow: 4 },
+    { width: 768, itemsToShow: 5 },
+    { width: 1200, itemsToShow: 6 },
   ];
 
   return (
@@ -20,9 +22,8 @@ const CategoryPanel = ({ categories }) => {
         containerClass="carousel-container"
       >
         {categories.map((category, index) => { return(
-          <div >
+          <div key={index}>
             <CategoryCard
-            key={index}
             title={category.title}
             imageUrl={category.imageUrl}
           />

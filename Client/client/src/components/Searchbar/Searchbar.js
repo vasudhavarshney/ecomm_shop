@@ -18,7 +18,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className='flex_container'>
-      <input
+      <input className='Search_input'
         type="text"
         placeholder="Search..."
         value={query}
