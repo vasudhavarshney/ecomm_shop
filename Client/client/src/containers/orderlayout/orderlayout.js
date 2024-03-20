@@ -2,7 +2,7 @@ import { React } from 'react'
 import './orderlayout.css';
 import Header from '../../components/header/header.js'
 
-export default function layout() {
+export default function orderlayout() {
     const leftItems = [
         { text: 'Logo', link: 'https://static.thenounproject.com/png/9663-200.png' },
         
@@ -11,7 +11,7 @@ export default function layout() {
       const rightItems = [
         { text: 'Home', link: '/home' },
         { text: 'Orders', link: '/orders' },
-        { text: 'Settings', link: '/settings' },
+        { text: 'Profile', link: '/Profile' },
       ];
   return (
     <div className='main_container'>
